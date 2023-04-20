@@ -67,8 +67,9 @@ populateBoard(16);
 let changeSize = input => {
     if(input >=2 && input <=100){
     populateBoard(input);
+    document.querySelector(".error").innerHTML = ""
     }else{
-        console.log("Error, to many or to little squares")
+        document.querySelector(".error").innerHTML = "Please enter a number between 2 and 100"
     }
 }
 
