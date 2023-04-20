@@ -54,7 +54,7 @@ for(i=0; i<amount ; i++){
 // get the value of the size input when the set size button is clicked and pass it to the change size function
 let inputBtn = document.querySelector(".input-btn");
 inputBtn.addEventListener("click", function(){
-    let inputVal = document.querySelector(".input").value;
+    let inputVal = document.querySelector(".grid-size").value;
     inputVal = parseInt(inputVal);
     changeSize(inputVal)
 })
