@@ -6,19 +6,19 @@ blackBtn.addEventListener('click', function(){
     color = "black";
 })
 
-// set color to white when black button clicked
+// set color to white when white button clicked
 let whiteBtn = document.querySelector(".white-btn");
 whiteBtn.addEventListener('click', function(){
     color = "white";
 })
 
-// set color to a random color when black button clicked
+// set color to a random color when random button clicked
 let randomBtn = document.querySelector(".random-btn");
 randomBtn.addEventListener('click', function(){
     color = "random";
 })
 
-// set color to a random color when black button clicked
+// reset the board when the reset button clicked
 let resetBtn = document.querySelector(".reset-btn");
 resetBtn.addEventListener('click', function(){
     let board = document.querySelector(".container");
